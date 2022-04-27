@@ -141,33 +141,6 @@ df_new.to_csv("Play_Store_Dash_new.csv")
 # df_new['Rating'].unique()
 
 
-# In[19]:
-
-
-# df_new[(df_new['Rating'] > 3.0) & (df_new['Rating'] <= 3.9)]
-
-
-# In[20]:
-
-
-# df_new.drop("index", axis=1, inplace=True)
-
-
-# In[21]:
-
-
-# df_new.Rating.unique()
-
-
-# In[22]:
-
-
-# df_new.to_csv("Play_Store_Dash.csv")
-# 
-
-
-# In[ ]:
-
 
 
 
