@@ -50,16 +50,19 @@ In order to run this full project these packages need to be pre-installed into t
 - plotly 
 - datetime
 
-the command to install all packages together is:
-- pip install dash pandas scipy dash_bootstrap_components statsmodels plotly datetime
-#
-- Data-Cleaning-For-Dash.py: Reads the original dataset 'Google-Playstore.csv' and generates final dataset for dash application 'Play_Store_Dash_new.csv'
-- analysis.py: Reads the original dataset 'Google-Playstore.csv' and performs EDA by visualizing using Seaborn and Matplotlib
-- Visualization.py: Reads the original dataset 'Play_Store_Dash_new.csv' and implements dash application using Dash and Plotly packages
-- NN_Final_Report.pdf: Final project report pdf
 
+The command to install all packages together is:
+#### - pip install dash pandas scipy dash_bootstrap_components statsmodels plotly datetime
+#
+- **Data-Cleaning-For-Dash.py:** Reads the original dataset 'Google-Playstore.csv' and generates final dataset for dash application 'Play_Store_Dash_new.csv'
+- **analysis.py:** Reads the original dataset 'Google-Playstore.csv' and performs EDA by visualizing using Seaborn and Matplotlib
+- **Visualization.py:** Reads the original dataset 'Play_Store_Dash_new.csv' and implements dash application using Dash and Plotly packages
+- **NN_Final_Report.pdf:** Final project report pdf
+
+I have deployed the dash app in Google Cloud Platform as well.
 #
 ## Link to the dash app: [https://dashapp-s4afy3ytoq-rj.a.run.app/]
 #
-### note: Some output in the dash takes sometime to run, try by reselecting the component or reloading the link. 
+#
+### Note: Some output in the dash takes sometime to run, try by reselecting the component or reloading the link. 
 #
