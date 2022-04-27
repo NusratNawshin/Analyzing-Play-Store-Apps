@@ -12,7 +12,7 @@ import pandas as pd
 # In[2]:
 
 
-df=pd.read_csv("Google-Playstore.csv")
+df=pd.read_csv("data/Google-Playstore.csv")
 
 
 # In[3]:
@@ -58,10 +58,8 @@ df_new
 
 
 # Replace all the NaN with 'No Information' for object type and '0.0' for float
-# df['Installs'] = df['Installs'].replace(np.nan, '0+')
-# df['Installs'] = df['Installs'].replace(np.nan, '0+')
-# df['Installs'] = df['Installs'].replace(np.nan, '0+')
-# df['Installs'] = df['Installs'].replace(np.nan, '0+')
+
+
 df_new['Developer Email'] = df_new['Developer Email'].replace(np.nan, 'No Information')
 df_new['Developer Website'] = df_new['Developer Website'].replace(np.nan, 'No Information')
 df_new['Minimum Android'] = df_new['Minimum Android'].replace(np.nan, 'No Information')
@@ -93,8 +91,6 @@ df_new
 # In[12]:
 
 
-# df_new[(df_new['Released'] > '2019-04-21') & (df_new['Released'] < '2020-04-21')]
-
 
 # In[13]:
 
@@ -112,11 +108,6 @@ df_new.dtypes
 
 
 df_new
-
-
-# In[ ]:
-
-
 
 
 
@@ -138,7 +129,7 @@ df_new
 
 
 df_new.to_csv("Play_Store_Dash_new.csv")
-# df_new['Rating'].unique()
+
 
 
 
