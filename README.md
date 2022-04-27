@@ -40,7 +40,7 @@ Boolean Column List:
 - In App Purchases
 - Editors Choice
 
-The original dataset has to be downloaded from the kaggle [link](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps) and store inside of this repository's 'data' folder named as 'Google-Playstore.csv'. As I was not able to push this big data into the repository, you have to **manually** download and store it in your local machine. 
+The original dataset has to be downloaded from the kaggle [link](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps) and store inside of this repository's **'data'** folder named as **'Google-Playstore.csv'**. As I was not able to push this big data into the repository, you have to **manually** download and store it in your local machine. 
 However, for faster dash implementation I have the dataset reduced to 50775 rows and 22 columns by considering only the popular apps. I selected app installs count more than 100k and rating count more than 4500. Farther, I have dropped Scrapped time and Last updated column as it had high missing values. The code for this reduction is inside 'Data-Cleaning-For-Dash.py' and the dataset is stored into data folder named as 'Play_Store_Dash_new.csv'.
 #
 In order to run this full project these packages need to be pre-installed into the python environment. 
@@ -63,8 +63,8 @@ The command to install all packages together is:
 
 I have deployed the dash app in Google Cloud Platform as well.
 #
-## Link to the dash app: [https://dashapp-s4afy3ytoq-rj.a.run.app/]
+### Link to the dash app: [https://dashapp-s4afy3ytoq-rj.a.run.app/]
 #
 #
-### Note: Some output in the dash takes sometime to run, try by re-selecting the component or reloading the link. 
+**Note: Some output in the dash takes sometime to run, try by re-selecting the component or reloading the link. **
 #
