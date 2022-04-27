@@ -2,8 +2,9 @@
 Analyzing Google Play Store Apps
 
 ## DATS_6401 Visualization of Complex Data Final Project
-### With Prof. Reza Jafari
+#### With Prof. Reza Jafari
 ### George Washington University
+#### Spring 2022
 
 The project is to analyze Google Play Store Apps by Visualizing using Python Seaborn, Plotly and Dash packages. The dataset is collected from Kaggle. (Link: [https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps])
 #
@@ -64,5 +65,5 @@ I have deployed the dash app in Google Cloud Platform as well.
 ## Link to the dash app: [https://dashapp-s4afy3ytoq-rj.a.run.app/]
 #
 #
-### Note: Some output in the dash takes sometime to run, try by reselecting the component or reloading the link. 
+### Note: Some output in the dash takes sometime to run, try by re-selecting the component or reloading the link. 
 #
