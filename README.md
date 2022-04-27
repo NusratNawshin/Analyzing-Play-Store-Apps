@@ -8,7 +8,7 @@ Analyzing Google Play Store Apps
 
 The project is to analyze Google Play Store Apps by Visualizing using Python Seaborn, Plotly and Dash packages. The dataset is collected from Kaggle. (Link: [https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps])
 #
-It contains 24 columns and 2.3+ records. In which 19 columns are categorical, and 5 columns are numerical.
+It contains 25 columns and 2.3+ records. In which 19 columns are categorical, and 5 columns are numerical.
  
 Numerical columns list:
 - Rating
@@ -40,7 +40,8 @@ Boolean Column List:
 - In App Purchases
 - Editors Choice
 
-The dataset is inside of this repository's 'data; folder named as 'Google-Playstore.csv'. However, for faster dash implementation I have the dataset reduced the dataset to 50775 rows and 22 columns by considering only the popular apps. I selected app installs count more than 100k and rating count more than 4500. Farther, I have dropped Scrapped time and Last updated column as it had high missing values. The code for this reduction is inside 'Data-Cleaning-For-Dash.py' and the dataset is stored into data folder named as 'Play_Store_Dash_new.csv'.
+The original dataset has to be downloaded from the kaggle [link](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps) and store inside of this repository's 'data' folder named as 'Google-Playstore.csv'. As I was not able to push this big data into the repository, you have to **manually** download and store it in your local machine. 
+However, for faster dash implementation I have the dataset reduced to 50775 rows and 22 columns by considering only the popular apps. I selected app installs count more than 100k and rating count more than 4500. Farther, I have dropped Scrapped time and Last updated column as it had high missing values. The code for this reduction is inside 'Data-Cleaning-For-Dash.py' and the dataset is stored into data folder named as 'Play_Store_Dash_new.csv'.
 #
 In order to run this full project these packages need to be pre-installed into the python environment. 
 - dash 
