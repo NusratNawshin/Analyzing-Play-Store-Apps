@@ -8,7 +8,7 @@ Analyzing Google Play Store Apps
 
 The project is to analyze Google Play Store Apps by Visualizing using Python Seaborn, Plotly and Dash packages. The dataset is collected from Kaggle. (Link: [https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps])
 #
-It contains 25 columns and 2.3+ records. In which 19 columns are categorical, and 5 columns are numerical.
+It contains 24 columns and 2.3+ records. In which 19 columns are categorical, and 5 columns are numerical.
  
 Numerical columns list:
 - Rating
@@ -34,6 +34,7 @@ Categorical Columns List:
 - Content Rating
 - Privacy Policy
 - Scraped Time
+
 Boolean Column List:
 - Free                    
 - Ad Supported
@@ -54,16 +55,17 @@ In order to run this full project these packages need to be pre-installed into t
 
 
 The command to install all packages together is:
-#### - pip install dash pandas scipy dash_bootstrap_components statsmodels plotly datetime
+#### pip install dash pandas scipy dash_bootstrap_components statsmodels plotly datetime
 #
 - **Data-Cleaning-For-Dash.py:** Reads the original dataset 'Google-Playstore.csv' and generates final dataset for dash application 'Play_Store_Dash_new.csv'
 - **analysis.py:** Reads the original dataset 'Google-Playstore.csv' and performs EDA by visualizing using Seaborn and Matplotlib
 - **Visualization.py:** Reads the original dataset 'Play_Store_Dash_new.csv' and implements dash application using Dash and Plotly packages
 - **NN_Final_Report.pdf:** Final project report pdf
-
+- 
+#
 I have deployed the dash app in Google Cloud Platform as well.
 #
-### Link to the dash app: [https://dashapp-s4afy3ytoq-rj.a.run.app/]
+### Link to the dash app: [link](https://dashapp-s4afy3ytoq-rj.a.run.app/)
 #
 #
 **Note: Some output in the dash takes sometime to run, try by re-selecting the component or reloading the link. **
