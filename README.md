@@ -8,7 +8,7 @@ Analyzing Google Play Store Apps
 
 The project is to analyze Google Play Store Apps by Visualizing using Python Seaborn, Plotly and Dash packages. The dataset is collected from Kaggle. (Link: [https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps])
 #
-It contains 24 columns and 2.3+ records. In which 19 columns are categorical, and 5 columns are numerical.
+It contains 24 columns and 2.3+ Million records. In which 19 columns are categorical, and 5 columns are numerical.
  
 Numerical columns list:
 - Rating
@@ -61,7 +61,7 @@ The command to install all packages together is:
 - **analysis.py:** Reads the original dataset 'Google-Playstore.csv' and performs EDA by visualizing using Seaborn and Matplotlib
 - **Visualization.py:** Reads the original dataset 'Play_Store_Dash_new.csv' and implements dash application using Dash and Plotly packages
 - **NN_Final_Report.pdf:** Final project report pdf
-- 
+
 #
 I have deployed the dash app in Google Cloud Platform as well.
 #
